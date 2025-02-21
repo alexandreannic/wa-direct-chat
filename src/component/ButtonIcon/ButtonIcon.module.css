@@ -1,0 +1,9 @@
+.root {
+    background: none;
+    border-radius: 1000px;
+    border: none;
+}
+
+.root:hover {
+    background: var(--color-bg-hover)
+}

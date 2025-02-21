@@ -1,0 +1,23 @@
+.root {
+    display: inline-flex;
+    align-items: center;
+    font-size: var(--font-size-big);
+    padding: calc(var(--spacing) * 1) calc(var(--spacing) * 1.25);
+    border-radius: var(--radius);
+}
+
+.icon {
+    font-size: 1.8em;
+    margin-right: var(--spacing);
+}
+
+.inline {
+    background: none;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+
+.contained {
+    background: var(--color-primary);
+    color: var(--color-primary-contrast);
+}

@@ -1,0 +1,14 @@
+.root {
+    display: flex;
+    max-width: 500px;
+    width: 100%;
+    align-items: center;
+    border: 1px solid var(--color-divider);
+    border-radius: var(--radius);
+    padding: var(--spacing)
+}
+
+.root:focus-within {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 5px var(--color-primary);
+}
